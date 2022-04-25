@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+body{
+    background-color: #FFFFFF;
+    width: 550px;
+    margin-left: 300px;
+    margin-top: 100px;
+  
+}
+.App{
+    height: 460px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ .logoimg{
+    width: 55px;
+    height: 55px;
+    display: inline;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logotext{
+    display: inline;
+    width: 122.39px;
+    height: 22.25px;
+    left: 61.61px;
+    top: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22.2535px;
+    line-height: 27px;
+    letter-spacing: -0.05em;
+    color: #61DAFB;
+    margin-top: 15px;
+}
+.logotitle{
+    display: inline;
+    margin-left: 145px;
+    width: 259px;
+    height: 21px;
+    left: 264px;
+    top: 38px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #DEEBF8;
+    margin-right: 25px;
+}
+nav{
+   background: #21222A;
+   display: flex;
+}
+div{
+    background: #282D35;
+        background-image: url("./logo.svg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position-x: 68%;
+        background-position-y: 70%;
+        background-size: 400px;
+}
+h2{
+    width: 424px;
+    height: 41px;
+    left: 27px;
+    top: 148px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39.06px;
+    line-height: 47px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    margin-left: 27px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ul {
+    list-style: none;
 }
 
-.App-link {
-  color: #61dafb;
+li{
+    color: white;
+    
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ ul li::before {
+    content: "\2022";
+    color: #61DAFB;
+    font-size:35px;
+    font-weight: bold;
+    display: inline-block;
+    width: 9.61px;
+    height: 9.61px;
+    margin-right: 15px;
+    margin-left: 15px;
+} 
+/* li::marker {
+    color: #61DAFB;
+    font-size: 1.5em;    this is used for list styling but not needed right now 
+} */
